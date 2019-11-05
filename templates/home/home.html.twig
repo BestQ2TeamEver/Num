@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Bienvenue {% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+    <h1>Bienvenue sur le Site WEB exploitant les données du projet Voltaire: </h1>
+    <p>Il est developpé par le groupe projet : CADARSI MAURIN PRYBYS ROCHER !!</p>
+
+    Vous pouvez accéder au contenu suivant :
+    <ul>
+        <li>Les données CSV dans leur ensemble à la <a href="http://localhost:8000/affichCSV">page des données globales</a></li>
+        <li>L'espace de connexion </li>
+    </ul>
+</div>
+
+
+{% endblock %}
